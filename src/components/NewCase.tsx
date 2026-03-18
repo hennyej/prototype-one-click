@@ -113,6 +113,7 @@ export default function NewCase() {
       setShowPreview(false);
       setPreviewData(null);
       setShowSuccess(false);
+      window.close();
     }, 2000);
   };
 
@@ -138,6 +139,7 @@ export default function NewCase() {
           </div>
           <h2 className="text-2xl mb-2">Ticket sendt inn!</h2>
           <p className="text-gray-600">Rapporten din har blitt opprettet.</p>
+          <p className="text-sm text-gray-400">Du kan nå lukke denne fanen.</p>
         </div>
       </div>
     );
